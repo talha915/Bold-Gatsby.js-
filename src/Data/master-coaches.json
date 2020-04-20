@@ -1,0 +1,87 @@
+{
+    "mainheading": "MASTER",
+    "heading1": "COACHES",
+    "coachesSection": {
+        "categoryarray": [
+            {
+                "categoryname": "Category One"
+            },
+            {
+                "categoryname": "Category Two"
+            },
+            {
+                "categoryname": "Category Three"
+            },
+            {
+                "categoryname": "Category Four"
+            },
+            {
+                "categoryname": "Category Five"
+            },
+            {
+                "categoryname": "Category Six"
+            },
+            {
+                "categoryname": "All"
+            }
+        ],
+        "coacharray": [
+            {
+                "coachimage": "images/img18.jpg",
+                "coachname": "Emily Lee",
+                "text": "COACH"
+            },
+            {
+                "coachimage": "images/img19.jpg",
+                "coachname": "Kate Smith",
+                "text": "COACH"
+            },
+            {
+                "coachimage": "images/img20.jpg",
+                "coachname": "Eva Ricardson",
+                "text": "COACH"
+            },
+            {
+                "coachimage": "images/img21.jpg",
+                "coachname": "Emma Samson",
+                "text": "COACH"
+            },
+            {
+                "coachimage": "images/img22.jpg",
+                "coachname": "Jennifer Conner",
+                "text": "COACH"
+            },
+            {
+                "coachimage": "images/img23.jpg",
+                "coachname": "John Adams",
+                "text": "COACH"
+            }
+        ],
+        "buttontext": "See More"
+    },
+    "testimonials": {
+        "heading": "What People",
+        "heading1": "Are Saying",
+        "coachreviews": [
+            {
+                "image": "images/img24.png",
+                "coachname": "Adam Johnson",
+                "text": "10 days ago",
+                "details": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis."
+            },
+            {
+                "image": "images/img25.png",
+                "coachname": "Adam Johnson",
+                "text": "10 days ago",
+                "details": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis."
+            },
+            {
+                "image": "images/img26.png",
+                "coachname": "Adam Johnson",
+                "text": "10 days ago",
+                "details": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis."
+            }
+        ],
+        "buttontext": "See More"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "mainheading": "MEMBERSHIP",
+    "heading1": "PLANS",
+    "furtherheading": "ALL ACCESS COACHING",
+    "detail": "Get access to the best coaches, best process and best tools to help you on your Be Bold journey.",
+    "section1": {
+        "membershipplanarray": [
+            {
+                "heading": "One Class",
+                "detail": "Get unlimited access to one class",
+                "textprice1": "$119/month",
+                "textprice2": "$99/month - 5 months",
+                "property1": "All Lessons",
+                "property2": "All Workshops",
+                "property3": "All Templates and Files",
+                "buttontext": "Get Started"
+            },
+            {
+                "heading": "Single Coach",
+                "detail": "Get unlimited access to a single coach",
+                "textprice1": "$249/month",
+                "textprice2": "$199/month - 5 months",
+                "text": "Same as One Class PLUS:",
+                "property1": "Access to all classes of coaches",
+                "property2": "Personalized metrics tracking",
+                "property3": "One-on-one coaching sessions",
+                "buttontext": "Get Started"
+            },
+            {
+                "heading": "Unlimited Access",
+                "detail": "Get unlimited VIP access to all coaches",
+                "textprice1": "$399/month",
+                "textprice2": "$349/month - 5 months",
+                "text": "Same as Single Coach PLUS:",
+                "property1": "Access to ALL classes of ALL coaches",
+                "property2": "VIP event access",
+                "buttontext": "Get Started"
+            }
+        ]
+    },
+    "section2": {
+        "bannerheading1": "30 money back ",
+        "bannerheading2": "guarantee ",
+        "bannerheading3": "if you are not happy with ",
+        "bannerheading4": "BE ",
+        "bannerheading5": "BOLD",
+        "bannerheading6": "MASTER",
+        "bannerheading7": "COACHES."
+    }
+}

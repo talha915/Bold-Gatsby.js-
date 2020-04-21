@@ -1,0 +1,61 @@
+{
+    "mainheading": "The",
+    "furtherheading": "bold-pledge",
+    "detail1": "Are you serious? Then take the pledge to Be Bold and get started laying the foundation to make bold changes.",
+    "detail2": "The first step to making BOLDMOVES is take the BOLDPLEDGE to act and start changing your mindset.",
+    "form": {
+        "choicedropdown": {
+            "heading": "Choice to create impact:",
+            "boldseries": [
+                {
+                    "fieldtitle": "Bold Series"
+                }
+            ]
+        },
+        "timeframe": {
+            "heading": "Timeframe:",
+            "timeframearray": [
+                {
+                    "fieldtitle": "3 months"
+                },
+                {
+                    "fieldtitle": "6 months"
+                },
+                {
+                    "fieldtitle": "1 year"
+                }
+            ]
+        },
+        "CommitmenttoProgress": {
+            "heading": "Commitment to Progress:",
+            "CommitmenttoProgress": [
+                {
+                    "fieldtitle": "Take one action per week (turtle)..."
+                },
+                {
+                    "fieldtitle": "Take one action per month..."
+                },
+                {
+                    "fieldtitle": "Take one action per month (fast)..."
+                }
+            ]
+        },
+        "name_field": {
+            "heading": "Name: ",
+            "textfeild": "Enter your name..."
+        },
+        "email_field": {
+            "heading": "Email: ",
+            "textfeild": "Enter your email..."
+        },
+        "phone_field": {
+            "heading": "Phone:",
+            "textfeild": "Enter your phone..."
+        },
+        "notifyme": {
+            "heading": "Notify me of updates via SMS:",
+            "textfeild": "Enter your phone..."
+        },
+        "button": "I Accept The Pledge!"
+    }
+}

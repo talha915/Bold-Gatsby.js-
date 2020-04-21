@@ -1,0 +1,28 @@
+{
+    "mainheading": "BEBOLDMOBILEAPP",
+    "detail": "Connect with coaches, download videos, see support files and more from our mobile app.",
+    "section1": {
+        "slider": [
+            {
+                "image": "images/img33.jpg"
+            },
+            {
+                "image": "images/img34.jpg"
+            },
+            {
+                "image": "images/img35.jpg"
+            },
+            {
+                "image": "images/img36.jpg"
+            }
+        ],
+        "appstoreimage": "images/btn-app-store.png",
+        "googleplayimage": "images/btn-google-play.png"
+    },
+    "section2": {
+        "image": "images/img37.jpg",
+        "heading": "Get Beta Access to the Mobile App:",
+        "text": "Enter your email...",
+        "buttontext": "Request Access"
+    }
+}

@@ -2,15 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Header from '../components/Header/Header';
-import Home from "../components/Home/Home";
 import Footer from '../components/Footer/Footer';
+import MasterDetail from '../components/MasterCoaches/MasterDetail';
 
-const IndexPage = () => (
+const MasterCoachDetail = () => (
   <div>
     <Header />
-    <Home />
+    <MasterDetail />
     <Footer />
   </div>
 )
 
-export default IndexPage
+export default MasterCoachDetail

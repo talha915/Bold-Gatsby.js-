@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
             </div>
             <nav className="nav-area">
                 <ul className="navbar">
-                    <li className="active"><Link to="/"><a>Home</a></Link></li>
+                    <li className="active"><a><Link to="/">Home</Link></a></li>
                     <li><Link to="/story"><a>Our Story</a></Link></li>
                     <li><Link to="/boldseries"><a href="#">bold series</a></Link></li>
                     <li><Link to="/mastercoaches"><a href="#">master coaches</a></Link></li>

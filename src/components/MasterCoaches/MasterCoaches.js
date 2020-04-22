@@ -9,7 +9,10 @@ import masterCoach from '../../Data/master-coaches.json';
 import MasterHeader from './MasterHeader';
 import MasterTab from './MasterTab';
 import MasterTestimonials from "./MasterTestimonials";
+import MasterForm from "./MasterForm";
 
+import { Link } from "gatsby"
+import { navigate } from "@reach/router"
 class MasterCoaches extends Component {
 
     constructor(props) {
@@ -31,19 +34,27 @@ class MasterCoaches extends Component {
             let data = this.state.mastercoaches.coachesSection.coacharray;
             let coaches = data.map((items, index) => {
                 return (
-                    <div className="col" key={index}>
-                        <div className="img-box">
-                            <a href="#"><img src={items.coachimage} width="385" height="385" alt="img description" /></a>
+                    
+                        <div className="col" key={index} onClick={()=>this.selectedCard(items, index)}>
+                            <div className="img-box">
+                                <a ><img src={items.coachimage} width="385" height="385" alt="img description" /></a>
+                            </div>
+                            <div className="text-box">
+                                <h2><a>{items.coachname}</a></h2>
+                                <span className="designation">{items.text}</span>
+                            </div>
                         </div>
-                        <div className="text-box">
-                            <h2><a href="#">{items.coachname}</a></h2>
-                            <span className="designation">{items.text}</span>
-                        </div>
-                    </div>
+                   
                 )
             })
             return coaches;
         }
+    }
+
+    selectedCard=(data, index)=> {
+        localStorage.setItem('selected', JSON.stringify(data));
+        window.location.pathname = "/";
+        console.log("Setted: ", JSON.parse(localStorage.getItem('selected')));
     }
 
     render() {
@@ -63,6 +74,7 @@ class MasterCoaches extends Component {
                     </div>
                 </section>
                 <MasterTestimonials testimonials={this.state.mastercoaches.testimonials} />
+                <MasterForm />
             </main>
         )
     }

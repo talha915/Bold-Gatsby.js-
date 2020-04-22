@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+
+import "slick-carousel/slick/slick.css";
+ import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 class Recently extends Component {
 
     constructor(props) {
@@ -35,15 +37,22 @@ class Recently extends Component {
     }
 
     render() {
-        console.log("Prop: ", this.state.recently);
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          
+          };
         return(
             <div className="carousel-holder">
 				<div className="container">
 					<strong className="heading">{this.state.recently.heading}</strong>
 					<div className="carousel">
-                        <AwesomeSlider bullets={false}>
+                        <Slider {...settings}>
                             {this.getItems()}
-                        </AwesomeSlider>
+                        </Slider>
 					</div>
 				</div>
 			</div>

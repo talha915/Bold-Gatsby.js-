@@ -1,29 +1,24 @@
-import React, { Component } from "react"
-import "../../styles/main.css";
+import React, { Component } from 'react';
 
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 class BoldMovies extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
-            boldCoaches: ''
+            bolds: ''
         }
     }
 
     UNSAFE_componentWillMount() {
-        this.setBoldMovies();
+        this.setBolds();
     }
 
-    setBoldMovies = () => {
-        this.setState({ boldCoaches: this.props.boldMovie });
+    setBolds = () => {
+        console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", this.props.boldData);
+        this.setState({ bolds: this.props.boldData });
     }
 
     getBoldMovies = () => {
-        let data = this.state.boldCoaches.boldmovieslist;
+        let data = this.state.bolds.videoarray;
         let result = data.map((items, index) => {
             return (
                 <div className="slide" key={index}>
@@ -34,7 +29,7 @@ class BoldMovies extends Component {
                     </div>
                     <div className="text-box">
                         <h2>{items.name}</h2>
-                        <p>{items.text1}<br/> {items.text2}</p>
+                        <p>{items.text1}<br /> {items.text2}</p>
                     </div>
                 </div>
             )
@@ -43,43 +38,20 @@ class BoldMovies extends Component {
     }
 
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                  breakpoint: 1024,
-                  settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                  }
-                },
-                {
-                  breakpoint: 600,
-                  settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                  }
-                },
-                {
-                  breakpoint: 480,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-              ]
-          };
         return (
             <div>
+                <div class="info-block">
+                    <img class="circle-shape" src="images/circle-img01.png" width="600" height="600" alt="img description" />
+                    <div class="container">
+                        <ul class="list">
+                            <li>6 Life Sectors</li>
+                            <li>25+ Classes</li>
+                            <li>All-In-One Platfrom</li>
+                            <li>10+ Coaches</li>
+                            <li>5 Master Tools</li>
+                        </ul>
+                    </div>
+                </div>
                 <section className="bold-movies">
                     <img className="circle-shape" src="images/circle-img03.svg" width="600" height="600" alt="img description" />
                     <div className="container">
@@ -93,9 +65,7 @@ class BoldMovies extends Component {
                         </div>
                         <div className="play-carousel">
                             <div className="slideset">
-                                <Slider {...settings} className="bold_slider">
-                                    {this.getBoldMovies()}
-                                </Slider>
+                                {this.getBoldMovies()}
                             </div>
                             <a href="#" className="btn-prev"><i className="icon-arrow-prev"></i></a>
                             <a href="#" className="btn-next"><i className="icon-arrow-next"></i></a>
@@ -110,20 +80,19 @@ class BoldMovies extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="start-coaching">
-                    <div className="container">
-                        <div className="text-box">
+                <section class="start-coaching">
+                    <div class="container">
+                        <div class="text-box">
                             <p>Start with a coaching as low as $99/month (billed annually). 100% satisfaction quaranteed.</p>
                         </div>
-                        <div className="btn-holder">
-                            <a href="#" className="btn">Get Started</a>
+                        <div class="btn-holder">
+                            <a href="#" class="btn">Get Started</a>
                         </div>
                     </div>
                 </section>
             </div>
-        )
+        );
     }
 }
-
 
 export default BoldMovies;

@@ -198,7 +198,7 @@
         "text4": "10+ Coaches",
         "text5": "5 Master Tools"
     },
-    "sectionbold-movies": {
+    "sectionboldmovies": {
         "heading": "Here the stories of",
         "heading1": "BOLDMOVIES",
         "heading2": "from others:",
@@ -207,18 +207,21 @@
             {
                 "image": "images/img09.jpg",
                 "name": "Adam Johnson",
+                "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": "Bold Move"
             },
             {
                 "image": "images/img09.jpg",
                 "name": "Adam Johnson",
+                "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": "Bold Move"
             },
             {
                 "image": "images/img09.jpg",
                 "name": "Adam Johnson",
+                "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": "Bold Move"
             }

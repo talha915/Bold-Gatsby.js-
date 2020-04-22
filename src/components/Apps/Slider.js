@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
 import "../../styles/main.css";
 
-class Slider extends Component {
+import "slick-carousel/slick/slick.css";
+ import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+class Sliders extends Component {
 
     constructor(props) {
         super(props);
@@ -36,8 +38,44 @@ class Slider extends Component {
 
 
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+              ]
+          };
         return (
             <section className="app-section">
+                
                 <img className="circle-shape" src="images/circle-img09.svg" width="505" height="505" alt="img description" />
                 <div className="container">
                     <div className="section-header">
@@ -48,9 +86,9 @@ class Slider extends Component {
                     </div>
 					<div className="app-slider">
                         <div className="slideset">
-                            <AwesomeSlider>
+                            <Slider {...settings} className="app_slider">
                                 {this.getSliderImages()}
-                            </AwesomeSlider>                          
+                            </Slider>                          
                         </div>
                         <a href="#" className="btn-prev"><i className="icon-arrow-prev"></i></a>
                         <a href="#" className="btn-next"><i className="icon-arrow-next"></i></a>
@@ -65,4 +103,4 @@ class Slider extends Component {
     }
 }
 
-export default Slider;
+export default Sliders;

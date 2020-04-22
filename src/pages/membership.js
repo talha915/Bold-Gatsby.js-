@@ -13,10 +13,4 @@ const Membership = () => (
   </div>
 )
 
-
-
-
-
 export default Membership;
-
-

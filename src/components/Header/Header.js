@@ -5,6 +5,8 @@ import logo from '../../images/logo.svg';
 import btnappstore from '../../images/btn-app-store.png';
 import googleplaybtn from '../../images/btn-google-play.png';
 
+import { Link } from "gatsby";
+
 const Header = ({ siteTitle }) => (
     <header id="header">
         <div className="container">
@@ -13,12 +15,12 @@ const Header = ({ siteTitle }) => (
             </div>
             <nav className="nav-area">
                 <ul className="navbar">
-                    <li className="active"><a href="#">Home</a></li>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">bold series</a></li>
-                    <li><a href="#">master coaches</a></li>
-                    <li><a href="#">membership</a></li>
-                    <li><a href="#">app</a></li>
+                    <li className="active"><Link to="/"><a>Home</a></Link></li>
+                    <li><Link to="/story"><a>Our Story</a></Link></li>
+                    <li><Link to="/boldseries"><a href="#">bold series</a></Link></li>
+                    <li><Link to="/mastercoaches"><a href="#">master coaches</a></Link></li>
+                    <li><Link to="/membership"><a href="#">membership</a></Link></li>
+                    <li><Link to="/app"><a href="#">app</a></Link></li>
                 </ul>
                 <div className="btn-holder">
                     <a className="btn-app" href="#"><img src={btnappstore} width="120" height="40" alt="appstore" /></a>
@@ -34,12 +36,12 @@ const Header = ({ siteTitle }) => (
                     <div className="col">
                         <strong className="title">explore</strong>
                         <ul className="nav">
-                            <li><a href="#">Home</a></li>
-                            <li className="active"><a href="#">Our Story</a></li>
-                            <li><a href="#">Bold Series</a></li>
-                            <li><a href="#">Master Coaches</a></li>
-                            <li><a href="#">Membership</a></li>
-                            <li><a href="#">App</a></li>
+                            <li><Link to="/"><a>Home</a></Link></li>
+                            <li className="active"><Link to="/story"><a>Our Story</a></Link></li>
+                            <li><Link to="/boldseries"><a>Bold Series</a></Link></li>
+                            <li><Link to="/mastercoaches"><a>Master Coaches</a></Link></li>
+                            <li><Link to="/membership"><a>Membership</a></Link></li>
+                            <li><Link to="/app"><a>App</a></Link></li>
                         </ul>
                     </div>
                     <div className="col">

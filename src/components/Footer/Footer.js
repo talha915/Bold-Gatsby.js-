@@ -1,5 +1,7 @@
 import React from "react"
 
+import { Link } from "gatsby";
+
 import "../../styles/main.css";
 
 const Footer = ({ siteTitle }) => (
@@ -9,12 +11,12 @@ const Footer = ({ siteTitle }) => (
                 <div className="col">
                     <strong className="title">explore</strong>
                     <ul className="nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Bold Series</a></li>
-                        <li><a href="#">Master Coaches</a></li>
-                        <li><a href="#">Membership</a></li>
-                        <li><a href="#">App</a></li>
+                        <li><Link to="/"><a>Home</a></Link></li>
+                        <li><Link to="/story"><a>Our Story</a></Link></li>
+                        <li><Link to="/boldseries"><a>Bold Series</a></Link></li>
+                        <li><Link to="/mastercoaches"><a href="#">Master Coaches</a></Link></li>
+                        <li><Link to="/membership"><a href="#">Membership</a></Link></li>
+                        <li><Link to="/app"><a href="#">App</a></Link></li>
                     </ul>
                 </div>
                 <div className="col">

@@ -1,0 +1,232 @@
+{
+    "mainheading": "FOCUS",
+    "subheading": "Stay focused on what matters.",
+    "text1": "A bold goal can be small or big, can take weeks or months to complete. But most Bold Moves usually have one small barrier that keeps us from executing on the move.",
+    "text2": "The Be Bold Movement reminds us it is important to say focused on the end result and the goal and not the barrier.",
+    "text3": "The Bold Movement singularizes one impact-focused question that will serve as the foundation for moving forward and staying focused.",
+    "button": "Next",
+    "banners": [
+        {
+            "heading": "FOCUS",
+            "subheading": "Stay focused on what matters.",
+            "points": [
+                {
+                    "point": "A bold goal can be small or big, can take weeks or months to complete. But most Bold Moves usually have one small barrier that keeps us from executing on the move."
+                },
+                {
+                    "point": "The Be Bold Movement reminds us it is important to say focused on the end result and the goal and not the barrier."
+                },
+                {
+                    "point": "The Bold Movement singularizes one impact-focused question that will serve as the foundation for moving forward and staying focused."
+                }
+            ]
+        }
+        
+    ],
+    "section1": {
+        "heading": "About",
+        "subheading": "Our Founder",
+        "organized": "Founded and organized by",
+        "foundername": "AIDANSALVI",
+        "foundermessage": "Founded and organized by Aidan Salvi, angel investor, advisor, entrepreneur, and technologist who believes that the biggest things that prevent people from making life-changing decisions is the fear that comes with making Bold Moves. Having made many Bold Moves in his past, Aidan wants to bring insight into the process and internal mindset when making Bold Moves. Aidan wants to bring a different mindset to the productivity world which is more scientific and focused on progress and not deadlines and due dates.",
+        "foundermessage2": "Each person has a different pace at which to work. What should unite us is the nature that we are all taking steps forward and not the paces of the steps. Support the progress!"
+    },
+    "section2": {
+        "heading": "BOLDTHINKING",
+        "subheading": "Be Bold starts wit a shift in mindset or a way to look at progress, deadlines, and obstacles just a bit differently.",
+        "boldthinkingvideos": [
+            {
+                "image": "images/img01.jpg",
+                "heading": "Take Action",
+                "subheading": "Keep moving, take action and make progress.",
+                "buttonname": "Play"
+            },
+            {
+                "image": "images/img02.jpg",
+                "heading": "Surpass Fears",
+                "subheading": "Fear does not disappear, move beyond it.",
+                "buttonname": "Play"
+            },
+            {
+                "image": "images/img03.jpg",
+                "heading": "Forward Progress",
+                "subheading": "Focus on making progress not deadlines.",
+                "buttonname": "Play"
+            }
+        ]
+    },
+    "section3": {
+        "heading": "BOLDEXECUTION",
+        "subheading": "The Bold series of coaches and the Be Bold platffrom goes beyond chaning your thinking. It shows you how to execute and gives you the tools and support to make it happen!",
+        "boldexecutionvideos": [
+            {
+                "image": "images/img04.jpg",
+                "heading": "Plan/Prioritization",
+                "subheading": "Build the prioritization plan to stay focused.",
+                "buttonname": "Play"
+            },
+            {
+                "image": "images/img05.jpg",
+                "heading": "Support",
+                "subheading": "Identify the support team to help guide.",
+                "buttonname": "Play"
+            },
+            {
+                "image": "images/img06.jpg",
+                "heading": "Accountability",
+                "subheading": "Create measurable metrics to stay accountable.",
+                "buttonname": "Play"
+            }
+        ]
+    },
+    "section4": {
+        "heading": "BEBOLD",
+        "subheading": "in 5 points",
+        "beboldarray": [
+            {
+                "heading": "1",
+                "detail": "Be Bold is a movement, a mindset, a support network, a book, a coaching platform, a process, a learning series, and a mobile app to help make bold transformative changes for personal growth and life changes."
+            },
+            {
+                "heading": "2",
+                "subheading": "The Be Bold platform is about creating the foundation to make actionable steps and executing decisions. The platform crafts tools and identifies networks of mentors and coaches to support those decisions."
+            },
+            {
+                "heading": "3",
+                "subheading": "The Be Bold mission is to challenge the conventional thinking, planning, and decision-making process for people that want to change, create change, or be great."
+            },
+            {
+                "heading": "4",
+                "subheading": "Be Bold is NOT about motivation. It IS about movement. It's about taking actionable steps to move beyond the fear. Be Bold is about tackling the inner fear to make a bold decision and take action that will be impactful."
+            },
+            {
+                "heading": "5",
+                "subheading": "The Be Bold movement identifies and gives visibility to the fundamental fear that prevents us from taking action(s) that will help reach our fullest potential."
+            }
+        ]
+    },
+    "section5": {
+        "heading": "THE",
+        "heading1": "BEBOLD",
+        "heading2": "MOVEMENT",
+        "thebeboldmomentarray": [
+            {
+                "number": "1",
+                "heading": "Progress above movement.",
+                "subheading1": "Being motivated is different than taking action.",
+                "subheading2": "Progress, any progress, can be an inspiration for future progress. But being bold involves moving beyond “discussing” and “motivating” and into “doing”."
+            },
+            {
+                "number": "2",
+                "heading": "Death to Deadlines.",
+                "subheading1": "Due dates create anxiety and negativity, which stalls progress. Be Bold creates a mindset that rewards and builds upon progress."
+            },
+            {
+                "number": "3",
+                "heading": "Focus, Health, Sleep.",
+                "subheading1": "The focus is always the end result when making a Bold journey. The progression toward the goal, not the barrier(s) will help you stay focused.",
+                "subheading2": "The Bold Movement journey relies on a routine of health and sleep to stay focused on forward progress."
+            },
+            {
+                "number": "4",
+                "heading": "Balanced Progress.",
+                "subheading1": "A forward-thinking mindset is one of a balanced daily progression.",
+                "subheading2": "Every day is an opportunity to make progress. Some progress is more noticeable than others and some progress may not look like progress at first.",
+                "subheading3": "Balanced progress is a holistic view of where you were and where you want to be and finding the right balance as you move forward"
+            },
+            {
+                "number": "5",
+                "heading": "Progress above movement.",
+                "subheading1": "Being motivated is different than taking action.",
+                "subheading2": "Progress, any progress, can be an inspiration for future progress. But being bold involves moving beyond “discussing” and “motivating” and into “doing”."
+            },
+            {
+                "number": "6",
+                "heading": "Bold Moves",
+                "subheading1": "What is a Bold Move? A Bold Move is a move that has been on your mind for quite some time but something is holding you back from making it. Usually an inner fear of some sort.",
+                "subheading2": "A bold move(s) will be personal to each person. The complexity of the Bold Movement will vary. And the success of the bold move will be different for each set of circumstances.",
+                "subheading3": "The obstacles to bold moves will also vary and may not be obvious at first or throughout the journey. The important thing to keep in mind is that once the forward momentum has been established, then focus on the goal and the progress."
+            },
+            {
+                "number": "7",
+                "heading": "The Science of Productivity.",
+                "subheading1": "Be Bold is about establishing a different mindset to the productivity world as we know it.",
+                "subheading2": "A bold move(s) will be personal to each person. The complexity of the Bold Movement will vary. And the success of the bold move will be different for each set of circumstances.",
+                "subheading3": "Be Bold looks at the future of workflow and productivity in a more scientific manner that is focused on progress without the anxiety of deadlines."
+            }
+        ]
+    },
+    "section6": {
+        "bannerheading": "“You must undestand the mindset that led you to today to change the path for tommorow.”"
+    },
+    "section7": {
+        "heading": "Learn from the best, with all the support and accountability you need.",
+        "subheading": "$99/month (billed annually)",
+        "buttonname": "Get Started"
+    },
+    "section8": {
+        "heading": "Recently Added",
+        "carouselarray": [
+            {
+                "image": "images/img08.jpg",
+                "heading": "John Adams",
+                "text": "Teach something cool!",
+                "text1": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis",
+                "buttontext": "Details"
+            },
+            {
+                "image": "images/img08.jpg",
+                "heading": "John Adams",
+                "text": "Teach something cool!",
+                "text1": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis",
+                "buttontext": "Details"
+            },
+            {
+                "image": "images/img08.jpg",
+                "heading": "John Adams",
+                "text": "Teach something cool!",
+                "text1": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis",
+                "buttontext": "Details"
+            }
+        ]
+    },
+    "sectioninfo-block": {
+        "image": "images/circle-img01.png",
+        "text1": "6 Life Sectors",
+        "text2": "25+ Classes",
+        "text3": "All-In-One Platfrom",
+        "text4": "10+ Coaches",
+        "text5": "5 Master Tools"
+    },
+    "sectionbold-movies": {
+        "heading": "Here the stories of",
+        "heading1": "BOLDMOVIES",
+        "heading2": "from others:",
+        "detail": "The Bold podcast hosted by Aidan Salvi one of our Master Coaches shares the journey and decision made by people from various walks of life in how they made Bold decision in thair path to fulfillment and success and what it took to get here.",
+        "videoarray": [
+            {
+                "image": "images/img09.jpg",
+                "name": "Adam Johnson",
+                "text1": "Talks about his last",
+                "text2": "Bold Move"
+            },
+            {
+                "image": "images/img09.jpg",
+                "name": "Adam Johnson",
+                "text1": "Talks about his last",
+                "text2": "Bold Move"
+            },
+            {
+                "image": "images/img09.jpg",
+                "name": "Adam Johnson",
+                "text1": "Talks about his last",
+                "text2": "Bold Move"
+            }
+        ],
+        "button": "See The Full Series"
+    },
+    "banner": {
+        "heading": "Start with a coaching as low as $99/month (billed annually). 100% satisfaction quaranteed.",
+        "button": "Get Started"
+    }
+}

@@ -33,18 +33,16 @@ class MasterCoaches extends Component {
         if (this.state.mastercoaches) {
             let data = this.state.mastercoaches.coachesSection.coacharray;
             let coaches = data.map((items, index) => {
-                return (
-                    
-                        <div className="col" key={index} onClick={()=>this.selectedCard(items, index)}>
-                            <div className="img-box">
-                                <a ><img src={items.coachimage} width="385" height="385" alt="img description" /></a>
-                            </div>
-                            <div className="text-box">
-                                <h2><a>{items.coachname}</a></h2>
-                                <span className="designation">{items.text}</span>
-                            </div>
+                return (             
+                    <div className="col" key={index} onClick={()=>this.selectedCard(items, index)}>
+                        <div className="img-box">
+                            <a ><img src={items.coachimage} width="385" height="385" alt="img description" /></a>
                         </div>
-                   
+                        <div className="text-box">
+                            <h2><a>{items.coachname}</a></h2>
+                            <span className="designation">{items.text}</span>
+                        </div>
+                    </div>
                 )
             })
             return coaches;
@@ -53,7 +51,7 @@ class MasterCoaches extends Component {
 
     selectedCard=(data, index)=> {
         localStorage.setItem('selected', JSON.stringify(data));
-        window.location.pathname = "/";
+        window.location.pathname = "/mastercoachdetail";
         console.log("Setted: ", JSON.parse(localStorage.getItem('selected')));
     }
 

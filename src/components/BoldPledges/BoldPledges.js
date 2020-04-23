@@ -55,6 +55,10 @@ class BoldPledges extends Component {
 		return results;
 	}
 
+	pledgeCommitment=()=> {
+		window.location.pathname = "/boldpledgecommitment";
+	}
+
     render() {
         return (
             <section className="pledge-section">
@@ -123,7 +127,7 @@ class BoldPledges extends Component {
 							</div>
 						</div>
 						<div className="btn-holder center">
-							<button className="btn" type="submit">{this.state.boldpledge.form.button}</button>
+							<a className="btn" onClick={()=>this.pledgeCommitment()} style={{cursor: "pointer"}}>{this.state.boldpledge.form.button}</a>
 						</div>
 					</form>
 				</div>

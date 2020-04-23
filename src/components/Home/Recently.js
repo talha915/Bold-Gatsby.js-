@@ -24,7 +24,10 @@ class Recently extends Component {
         let data = this.state.recently.carouselarray;
         let results = data.map((items, index)=> {
             return(
-                <div className="slide" style={{backgroundImage: 'images/img08.jpg' }} key={index}>
+                <div className="slide" key={index}>
+                    <div className="image" style={{backgroundImage: "url(/images/img08.jpg)"}}>
+
+                    </div>
                     <div className="text-box">
                         <h2>{items.heading}</h2>
                         <p>{items.text}<br /> {items.text1}</p>

@@ -23,7 +23,7 @@ class BoldMovies extends Component {
         let data = this.state.bolds.videoarray;
         let result = data.map((items, index) => {
             return (
-                <div className="slide" key={index}>
+                <div className="slick-slide" key={index}>
                     <div className="img-box">
                         <img src={items.image} width="326" height="200" alt="img description" />
                         <a href="#" className="btn-play"><i className="icon-play"></i></a>
@@ -42,16 +42,14 @@ class BoldMovies extends Component {
     render() {
         const settings = {
             dots: true,
-            infinite: true,
             speed: 500,
             slidesToShow: 3,
             slidesToScroll: 1,
-            variableWidth: true,
             responsive: [
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true

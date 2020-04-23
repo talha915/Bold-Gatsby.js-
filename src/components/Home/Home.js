@@ -26,7 +26,6 @@ class Home extends Component {
     }
 
     render() {
-        console.log("Index: ", this.state.homeData);
         return(
             <div>
                 <Sliders />

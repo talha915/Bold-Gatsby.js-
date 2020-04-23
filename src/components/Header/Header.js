@@ -15,17 +15,18 @@ const Header = ({ siteTitle }) => (
             </div>
             <nav className="nav-area">
                 <ul className="navbar">
-                    <li className="active"><a><Link to="/">Home</Link></a></li>
-                    <li><Link to="/story"><a>Our Story</a></Link></li>
-                    <li><Link to="/boldseries"><a href="#">bold series</a></Link></li>
-                    <li><Link to="/mastercoaches"><a href="#">master coaches</a></Link></li>
-                    <li><Link to="/membership"><a href="#">membership</a></Link></li>
-                    <li><Link to="/app"><a href="#">app</a></Link></li>
+                    <li className={(window.location.pathname === "/" ? "active": "")}><a><Link to="/">Home</Link></a></li>
+                    <li className={(window.location.pathname === "/story" ? "active": "")}><Link to="/story"><a>Our Story</a></Link></li>
+                    <li className={(window.location.pathname === "/boldseries" ? "active": "")}><Link to="/boldseries"><a href="#">bold series</a></Link></li>
+                    <li className={(window.location.pathname === "/mastercoaches" ? "active": "")}><Link to="/mastercoaches"><a href="#">master coaches</a></Link></li>
+                    <li className={(window.location.pathname === "/membership" ? "active": "")}><Link to="/membership"><a href="#">membership</a></Link></li>
+                    <li className={(window.location.pathname === "/app" ? "active": "")}><Link to="/app"><a href="#">app</a></Link></li>
+                    <li><a className="icon" href="#"><i class="icon-download"></i></a></li>
                 </ul>
-                <div className="btn-holder">
+                {/* <div className="btn-holder">
                     <a className="btn-app" href="#"><img src={btnappstore} width="120" height="40" alt="appstore" /></a>
                     <a className="btn-app google-play" href="#"><img src={googleplaybtn} width="135" height="40" alt="googleplay" /></a>
-                </div>
+                </div> */}
             </nav>
         </div>
         <input className="menu-check" id="menu" type="checkbox" />
@@ -36,12 +37,12 @@ const Header = ({ siteTitle }) => (
                     <div className="col">
                         <strong className="title">explore</strong>
                         <ul className="nav">
-                            <li><Link to="/"><a>Home</a></Link></li>
-                            <li className="active"><Link to="/story"><a>Our Story</a></Link></li>
-                            <li><Link to="/boldseries"><a>Bold Series</a></Link></li>
-                            <li><Link to="/mastercoaches"><a>Master Coaches</a></Link></li>
-                            <li><Link to="/membership"><a>Membership</a></Link></li>
-                            <li><Link to="/app"><a>App</a></Link></li>
+                            <li className={(window.location.pathname === "/" ? "active": "")}><Link to="/"><a>Home</a></Link></li>
+                            <li className={(window.location.pathname === "/" ? "story": "")}><Link to="/story"><a>Our Story</a></Link></li>
+                            <li className={(window.location.pathname === "/" ? "boldseries": "")}><Link to="/boldseries"><a>Bold Series</a></Link></li>
+                            <li className={(window.location.pathname === "/" ? "mastercoaches": "")}><Link to="/mastercoaches"><a>Master Coaches</a></Link></li>
+                            <li className={(window.location.pathname === "/" ? "membership": "")}><Link to="/membership"><a>Membership</a></Link></li>
+                            <li className={(window.location.pathname === "/" ? "app": "")}><Link to="/app"><a>App</a></Link></li>
                         </ul>
                     </div>
                     <div className="col">

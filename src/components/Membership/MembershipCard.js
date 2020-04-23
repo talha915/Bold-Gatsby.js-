@@ -34,11 +34,15 @@ class MembershipCard extends Component {
                             <li>{data.property3}</li>
                         </ul>
                     </div>
-                    <a className="btn">{data.buttontext}</a>
+                    <a className="btn" onClick={()=>this.memberShip()}>{data.buttontext}</a>
                 </div>
             )
         })
         return memberCards;
+    }
+
+    memberShip=()=> {
+        window.location.pathname = "/boldpledge";
     }
 
     render() {

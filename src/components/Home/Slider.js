@@ -15,9 +15,12 @@ class Sliders extends Component {
             dots: false,
             arrows: true,
             appendArrows: ".slick-paging",
-            speed: 500,
+            speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
+            PauseOnHover: false,
+            adaptiveHeight: true,
+            rows: 0,
             responsive: [
                 {
                     breakpoint: 1200,
@@ -51,7 +54,9 @@ class Sliders extends Component {
             <div className="main-slider-area">
                 <div className="main-slider">
                     <Slider {...settings}>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img01.jpg)" }}>
+                        <div className="slide">
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img01.jpg)" }}>
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">focus</h1>
@@ -63,7 +68,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img02.jpg)" }}>
+                        <div className="slide" >
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img02.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">PROGRESS</h1>
@@ -77,7 +85,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img03.jpg)" }}>
+                        <div className="slide" >
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img03.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">BOLD MOVES</h1>
@@ -91,7 +102,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img04.jpg)" }}>
+                        <div className="slide">
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img04.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">SURPASS THE FEAR</h1>
@@ -105,7 +119,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img05.jpg)" }}>
+                        <div className="slide">
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img05.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">REACH THE PINNACLE</h1>
@@ -117,7 +134,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img06.jpg)" }}>
+                        <div className="slide" >
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img06.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">DEATH TO DEADLINES</h1>
@@ -130,7 +150,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: " url(images/slide-img07.jpg)" }}>
+                        <div className="slide">
+                            <div className="image" style={{ backgroundImage: " url(images/slide-img07.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">LIVE AN ANXIETY<br /> FREE LIFE</h1>
@@ -142,7 +165,10 @@ class Sliders extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="slide" style={{ backgroundImage: "url(images/slide-img08.jpg)" }}>
+                        <div className="slide">
+                            <div className="image" style={{ backgroundImage: "url(images/slide-img08.jpg)" }}>
+
+                            </div>
                             <div className="container">
                                 <div className="caption">
                                     <h1 className="heading-border">FEEL CONFIDENT</h1>
@@ -156,9 +182,9 @@ class Sliders extends Component {
                             </div>
                         </div>
                     </Slider>
-                </div>
-                <div className="slick-paging">
+                    <div className="slick-paging">
 
+                    </div>
                 </div>
             </div>
         )

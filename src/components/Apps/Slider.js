@@ -38,10 +38,12 @@ class Sliders extends Component {
         const settings = {
             dots: true,
             infinite: true,
-           
-            speed: 500,
+            rows: 0,
+            speed: 1000,
             slidesToShow: 4,
             slidesToScroll: 1,
+            PauseOnHover: false,
+            adaptiveHeight: true,
             responsive: [
                 {
                     breakpoint: 1200,

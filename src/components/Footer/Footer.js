@@ -11,12 +11,12 @@ const Footer = ({ siteTitle }) => (
                 <div className="col">
                     <strong className="title">explore</strong>
                     <ul className="nav">
-                        <li><Link to="/"><a>Home</a></Link></li>
-                        <li><Link to="/story"><a>Our Story</a></Link></li>
-                        <li><Link to="/boldseries"><a>Bold Series</a></Link></li>
-                        <li><Link to="/mastercoaches"><a href="#">Master Coaches</a></Link></li>
-                        <li><Link to="/membership"><a href="#">Membership</a></Link></li>
-                        <li><Link to="/app"><a href="#">App</a></Link></li>
+                        <li className={(window.location.pathname === "/" ? "active" : "")}><Link to="/"><a>Home</a></Link></li>
+                        <li className={(window.location.pathname === "/" ? "story" : "")}><Link to="/story"><a>Our Story</a></Link></li>
+                        <li className={(window.location.pathname === "/" ? "boldseries" : "")}><Link to="/boldseries"><a>Bold Series</a></Link></li>
+                        <li className={(window.location.pathname === "/" ? "mastercoaches" : "")}><Link to="/mastercoaches"><a>Master Coaches</a></Link></li>
+                        <li className={(window.location.pathname === "/" ? "membership" : "")}><Link to="/membership"><a>Membership</a></Link></li>
+                        <li className={(window.location.pathname === "/" ? "app" : "")}><Link to="/app"><a>App</a></Link></li>
                     </ul>
                 </div>
                 <div className="col">

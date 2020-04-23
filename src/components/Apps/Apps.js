@@ -7,7 +7,7 @@ import app from '../../Data/app.json';
 import Sliders from './Slider';
 import Request from './Request';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-
+import scrollToComponent from 'react-scroll-to-component';
 class Apps extends Component {
 
     constructor(props) {
@@ -17,6 +17,8 @@ class Apps extends Component {
         }
     }
 
+    checkUrl = "01 / 07";
+
     UNSAFE_componentWillMount() {
         this.setApp();
     }
@@ -25,22 +27,34 @@ class Apps extends Component {
         this.setState({ appData: app });
     }
 
+    splitCheck=()=> {
+        let url = window.location.href;
+        let splitted = url.split("#");
+        console.log("Splitted : ", splitted);
+        if(splitted[1] == "first") {
+            this.checkUrl = "01 / 02";
+        }
+        else {
+            this.checkUrl = "02 / 02";
+        }
+    }
 
     render() {
+        
         return (
             <div>
                 <div class="fixed-block">
                     <ul class="fix-pagination">
-                        <li class="active"><a ></a></li>
-                        <li><a ></a></li>
+                        <li ><a href="#first" onClick={this.splitCheck()}></a></li>
+                        <li><a href="#second" onClick={this.splitCheck()}></a></li>
                     </ul>
-                    <span class="counter">01 / 07</span>
+                    <span class="counter">{this.checkUrl}</span>
                     <i class="icon-arrow-down"></i>
                     <strong class="title">Explore & <span>BE</span>BOLD</strong>
                 </div>
                 <main id="main">
-                    <Sliders sliderData={this.state.appData.section1} />
-                    <Request request={this.state.appData.section2} />
+                    <Sliders id="first" sliderData={this.state.appData.section1} />
+                    <Request id="second" request={this.state.appData.section2} />
                 </main>
             </div>
         )

@@ -13,7 +13,6 @@ class BoldMovies extends Component {
     }
 
     setBolds = () => {
-        console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", this.props.boldData);
         this.setState({ bolds: this.props.boldData });
     }
 

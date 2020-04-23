@@ -89,18 +89,12 @@ class BoldMovies extends Component {
                             <p>The Bold podcast hosted by Aidan Salvi one of our Master Coaches shares the journey and decision made by people from various walks of life in how they made Bold decision in thair path to fulfillment and success and what it took to get here.</p>
                         </div>
                         <div className="play-carousel">
-                            <div className="slideset">
+                            <div className="video-slider">
                                 <Slider {...settings} className="bold_slider">
                                     {this.getBoldMovies()}
                                 </Slider>
                             </div>
-                            <a href="#" className="btn-prev"><i className="icon-arrow-prev"></i></a>
-                            <a href="#" className="btn-next"><i className="icon-arrow-next"></i></a>
-                            <ul className="slick-dotes">
-                                <li><a href="#"></a></li>
-                                <li className="active"><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
+                            
                         </div>
                         <div className="btn-holder center">
                             <a href="#" className="btn btn-border">See the Full Series</a>

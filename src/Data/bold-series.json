@@ -5,38 +5,38 @@
         "detail": "Join a Master Coaching Series to accelerated the process of making you Bold moves.",
         "boldserieslist": [
             {
-                "image": "images/img12.jpg",
-                "imageofbutton": "images/img28.png",
+                "image": "/images/img12.jpg",
+                "imageofbutton": "/images/img28.png",
                 "heading": "Enterpreneurship and Lifestyle.",
                 "para": "Being motivated to take action is different than taking action. Be Bold is about taking action and creating progress"
             },
             {
-                "image": "images/img13.jpg",
-                "imageofbutton": "images/img29.png",
+                "image": "/images/img13.jpg",
+                "imageofbutton": "/images/img29.png",
                 "heading": "Career and Personal Wealth.",
                 "para": "Being motivated to take action is different than taking action. Be Bold is about taking action and creating progress"
             },
             {
-                "image": "images/img14.jpg",
-                "imageofbutton": "images/img30.png",
+                "image": "/images/img14.jpg",
+                "imageofbutton": "/images/img30.png",
                 "heading": "Health and Wellness.",
                 "para": "Being motivated to take action is different than taking action. Be Bold is about taking action and creating progress"
             },
             {
-                "image": "images/img15.jpg",
-                "imageofbutton": "images/img31.png",
+                "image": "/images/img15.jpg",
+                "imageofbutton": "/images/img31.png",
                 "heading": "Love and Relationships.",
                 "para": "Being motivated to take action is different than taking action. Be Bold is about taking action and creating progress"
             },
             {
-                "image": "images/img16.jpg",
-                "imageofbutton": "images/img32.png",
+                "image": "/images/img16.jpg",
+                "imageofbutton": "/images/img32.png",
                 "heading": "Personal Growth and Development.",
                 "para": "Being motivated to take action is different than taking action. Be Bold is about taking action and creating progress"
             },
             {
-                "image": "images/img17.jpg",
-                "imageofbutton": "images/img28.png",
+                "image": "/images/img17.jpg",
+                "imageofbutton": "/images/img28.png",
                 "heading": "Happiness and Self Fulfillment.",
                 "para": "Being motivated to take action is different than taking action. Be Bold is about taking action and creating progress"
             }
@@ -49,21 +49,21 @@
         "para": "The Bold podcast hosted by Aidan Salvi one of our Master Coaches shares the journey and decision made by people from various walks of life in how they made Bold decision in thair path to fulfillment and success and what it took to get here.",
         "boldmovieslist": [
             {
-                "image": "images/img09.jpg",
+                "image": "/images/img09.jpg",
                 "name": "Adam Johnson",
                 "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": " Bold Move"
             },
             {
-                "image": "images/img10.jpg",
+                "image": "/images/img10.jpg",
                 "name": "Adam Johnson",
                 "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": " Bold Move"
             },
             {
-                "image": "images/img11.jpg",
+                "image": "/images/img11.jpg",
                 "name": "Adam Johnson",
                 "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",

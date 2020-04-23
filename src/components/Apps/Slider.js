@@ -74,7 +74,7 @@ class Sliders extends Component {
         return (
             <section className="app-section">
 
-                <img className="circle-shape" src="images/circle-img09.svg" width="505" height="505" alt="img description" />
+                <img className="circle-shape" src="/images/circle-img09.svg" width="505" height="505" alt="img description" />
                 <div className="container">
                     <div className="section-header">
                         <h2 className="h1 heading-border">

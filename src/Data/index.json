@@ -36,19 +36,19 @@
         "subheading": "Be Bold starts wit a shift in mindset or a way to look at progress, deadlines, and obstacles just a bit differently.",
         "boldthinkingvideos": [
             {
-                "image": "images/img01.jpg",
+                "image": "/images/img01.jpg",
                 "heading": "Take Action",
                 "subheading": "Keep moving, take action and make progress.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img02.jpg",
+                "image": "/images/img02.jpg",
                 "heading": "Surpass Fears",
                 "subheading": "Fear does not disappear, move beyond it.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img03.jpg",
+                "image": "/images/img03.jpg",
                 "heading": "Forward Progress",
                 "subheading": "Focus on making progress not deadlines.",
                 "buttonname": "Play"
@@ -60,19 +60,19 @@
         "subheading": "The Bold series of coaches and the Be Bold platffrom goes beyond chaning your thinking. It shows you how to execute and gives you the tools and support to make it happen!",
         "boldexecutionvideos": [
             {
-                "image": "images/img04.jpg",
+                "image": "/images/img04.jpg",
                 "heading": "Plan/Prioritization",
                 "subheading": "Build the prioritization plan to stay focused.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img05.jpg",
+                "image": "/images/img05.jpg",
                 "heading": "Support",
                 "subheading": "Identify the support team to help guide.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img06.jpg",
+                "image": "/images/img06.jpg",
                 "heading": "Accountability",
                 "subheading": "Create measurable metrics to stay accountable.",
                 "buttonname": "Play"
@@ -168,21 +168,21 @@
         "heading": "Recently Added",
         "carouselarray": [
             {
-                "image": "images/img08.jpg",
+                "image": "/images/img08.jpg",
                 "heading": "John Adams",
                 "text": "Teach something cool!",
                 "text1": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis",
                 "buttontext": "Details"
             },
             {
-                "image": "images/img08.jpg",
+                "image": "/images/img08.jpg",
                 "heading": "John Adams",
                 "text": "Teach something cool!",
                 "text1": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis",
                 "buttontext": "Details"
             },
             {
-                "image": "images/img08.jpg",
+                "image": "/images/img08.jpg",
                 "heading": "John Adams",
                 "text": "Teach something cool!",
                 "text1": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis",
@@ -191,7 +191,7 @@
         ]
     },
     "sectioninfo-block": {
-        "image": "images/circle-img01.png",
+        "image": "/images/circle-img01.png",
         "text1": "6 Life Sectors",
         "text2": "25+ Classes",
         "text3": "All-In-One Platfrom",
@@ -205,21 +205,21 @@
         "detail": "The Bold podcast hosted by Aidan Salvi one of our Master Coaches shares the journey and decision made by people from various walks of life in how they made Bold decision in thair path to fulfillment and success and what it took to get here.",
         "videoarray": [
             {
-                "image": "images/img09.jpg",
+                "image": "/images/img09.jpg",
                 "name": "Adam Johnson",
                 "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": "Bold Move"
             },
             {
-                "image": "images/img09.jpg",
+                "image": "/images/img09.jpg",
                 "name": "Adam Johnson",
                 "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",
                 "text2": "Bold Move"
             },
             {
-                "image": "images/img09.jpg",
+                "image": "/images/img09.jpg",
                 "name": "Adam Johnson",
                 "time": "00:00:00 / 00:04:50",
                 "text1": "Talks about his last",

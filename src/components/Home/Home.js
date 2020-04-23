@@ -3,7 +3,7 @@ import "../../styles/main.css";
 
 import index from '../../Data/index.json';
 
-import Slider from './Slider';
+import Sliders from './Slider';
 import OurStories from '../OurStory/OurStories';
 import Recently from './Recently';
 import BoldMovies from './BoldMovies';
@@ -29,7 +29,7 @@ class Home extends Component {
         console.log("Index: ", this.state.homeData);
         return(
             <div>
-                <Slider />
+                <Sliders />
                 <OurStories />
                 <Recently recent={this.state.homeData.section8}/>
                 <BoldMovies boldData={this.state.homeData.sectionboldmovies} />                

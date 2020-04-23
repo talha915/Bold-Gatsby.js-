@@ -953,11 +953,9 @@ input[type="submit"] {
 }
 
 @font-face {
-	font-family: 'icomoon';
-	src:
-	  url('../fonts/icomoon.ttf?tsarwz') format('truetype'),
-	  url('../fonts/icomoon.woff?tsarwz') format('woff'),
-	  url('../fonts/icomoon.svg?tsarwz#icomoon') format('svg');
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?5eooru");
+	src: url("../fonts/icomoon.eot?5eooru#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?5eooru") format("truetype"), url("../fonts/icomoon.woff?5eooru") format("woff"), url("../fonts/icomoon.svg?5eooru#icomoon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -6519,4 +6517,4 @@ body {
 		margin: 0 5px;
 	}
 }
-
+

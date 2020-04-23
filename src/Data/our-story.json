@@ -12,19 +12,19 @@
         "subheading": "Be Bold starts wit a shift in mindset or a way to look at progress, deadlines, and obstacles just a bit differently.",
         "boldthinkingvideos": [
             {
-                "image": "images/img01.jpg",
+                "image": "/images/img01.jpg",
                 "heading": "Take Action",
                 "subheading": "Keep moving, take action and make progress.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img02.jpg",
+                "image": "/images/img02.jpg",
                 "heading": "Surpass Fears",
                 "subheading": "Fear does not disappear, move beyond it.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img03.jpg",
+                "image": "/images/img03.jpg",
                 "heading": "Forward Progress",
                 "subheading": "Focus on making progress not deadlines.",
                 "buttonname": "Play"
@@ -36,19 +36,19 @@
         "subheading": "The Bold series of coaches and the Be Bold platffrom goes beyond chaning your thinking. It shows you how to execute and gives you the tools and support to make it happen!",
         "boldexecutionvideos": [
             {
-                "image": "images/img04.jpg",
+                "image": "/images/img04.jpg",
                 "heading": "Plan/Prioritization",
                 "subheading": "Build the prioritization plan to stay focused.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img05.jpg",
+                "image": "/images/img05.jpg",
                 "heading": "Support",
                 "subheading": "Identify the support team to help guide.",
                 "buttonname": "Play"
             },
             {
-                "image": "images/img06.jpg",
+                "image": "/images/img06.jpg",
                 "heading": "Accountability",
                 "subheading": "Create measurable metrics to stay accountable.",
                 "buttonname": "Play"

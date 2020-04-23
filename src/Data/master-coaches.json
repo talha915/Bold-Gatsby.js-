@@ -27,7 +27,7 @@
         ],
         "coacharray": [
             {
-                "coachimage": "images/img18.jpg",
+                "coachimage": "/images/img18.jpg",
                 "coachname": "Emily Lee",
                 "text": "COACH",
                 "mastercoacharray": [
@@ -40,21 +40,21 @@
                         "detail3": "Mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed.",
                         "arrayoflesson": [
                             {
-                                "image": "images/img09.jpg",
+                                "image": "/images/img09.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 1",
                                 "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                             },
                             {
-                                "image": "images/img10.jpg",
+                                "image": "/images/img10.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 2",
                                 "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                             },
                             {
-                                "image": "images/img11.jpg",
+                                "image": "/images/img11.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 2",
@@ -89,7 +89,7 @@
                 ]
             },
             {
-                "coachimage": "images/img19.jpg",
+                "coachimage": "/images/img19.jpg",
                 "coachname": "Kate Smith",
                 "text": "COACH",
                 "mastercoacharray": [
@@ -102,21 +102,21 @@
                         "detail3": "Mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed.",
                         "arrayoflesson": [
                             {
-                                "image": "images/img09.jpg",
+                                "image": "/images/img09.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 1",
                                 "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                             },
                             {
-                                "image": "images/img10.jpg",
+                                "image": "/images/img10.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 2",
                                 "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                             },
                             {
-                                "image": "images/img11.jpg",
+                                "image": "/images/img11.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 2",
@@ -151,12 +151,12 @@
                 ]
             },
             {
-                "coachimage": "images/img20.jpg",
+                "coachimage": "/images/img20.jpg",
                 "coachname": "Eva Ricardson",
                 "text": "COACH"
             },
             {
-                "coachimage": "images/img21.jpg",
+                "coachimage": "/images/img21.jpg",
                 "coachname": "Emma Samson",
                 "text": "COACH",
                 "mastercoacharray": [
@@ -169,21 +169,21 @@
                         "detail3": "Mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed.",
                         "arrayoflesson": [
                             {
-                                "image": "images/img09.jpg",
+                                "image": "/images/img09.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 1",
                                 "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                             },
                             {
-                                "image": "images/img10.jpg",
+                                "image": "/images/img10.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 2",
                                 "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                             },
                             {
-                                "image": "images/img11.jpg",
+                                "image": "/images/img11.jpg",
                                 "timefram": "00:00:00 / 00:04:50",
                                 "heading": "Lorem ipsum dolor?",
                                 "subheading": "LESSON 2",
@@ -218,12 +218,12 @@
                 ]
             },
             {
-                "coachimage": "images/img22.jpg",
+                "coachimage": "/images/img22.jpg",
                 "coachname": "Jennifer Conner",
                 "text": "COACH"
             },
             {
-                "coachimage": "images/img23.jpg",
+                "coachimage": "/images/img23.jpg",
                 "coachname": "John Adams",
                 "text": "COACH"
             }
@@ -235,19 +235,19 @@
         "heading1": "Are Saying",
         "coachreviews": [
             {
-                "image": "images/img24.png",
+                "image": "/images/img24.png",
                 "coachname": "Adam Johnson",
                 "text": "10 days ago",
                 "details": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis."
             },
             {
-                "image": "images/img25.png",
+                "image": "/images/img25.png",
                 "coachname": "Adam Johnson",
                 "text": "10 days ago",
                 "details": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis."
             },
             {
-                "image": "images/img26.png",
+                "image": "/images/img26.png",
                 "coachname": "Adam Johnson",
                 "text": "10 days ago",
                 "details": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis."

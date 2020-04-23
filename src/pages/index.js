@@ -6,7 +6,7 @@ import Home from "../components/Home/Home";
 import Footer from '../components/Footer/Footer';
 
 const IndexPage = () => (
-  <div>
+  <div id="wrapper">
     <Header />
     <Home />
     <Footer />

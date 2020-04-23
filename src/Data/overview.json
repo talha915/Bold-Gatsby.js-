@@ -1,6 +1,6 @@
 {
     "mastercoachsection": {
-        "image": "images/img22.jpg",
+        "image": "/images/img22.jpg",
         "linkbutton": "Watch trailer",
         "heading": "Emily Lee",
         "furtherheading": "COACH",
@@ -15,21 +15,21 @@
                 "detail3": "Mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed.",
                 "arrayoflesson": [
                     {
-                        "image": "images/img09.jpg",
+                        "image": "/images/img09.jpg",
                         "timefram": "00:00:00 / 00:04:50",
                         "heading": "Lorem ipsum dolor?",
                         "subheading": "LESSON 1",
                         "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                     },
                     {
-                        "image": "images/img10.jpg",
+                        "image": "/images/img10.jpg",
                         "timefram": "00:00:00 / 00:04:50",
                         "heading": "Lorem ipsum dolor?",
                         "subheading": "LESSON 2",
                         "detail": "Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies."
                     },
                     {
-                        "image": "images/img11.jpg",
+                        "image": "/images/img11.jpg",
                         "timefram": "00:00:00 / 00:04:50",
                         "heading": "Lorem ipsum dolor?",
                         "subheading": "LESSON 2",

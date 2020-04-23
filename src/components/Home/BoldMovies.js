@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Slider from "react-slick";
+import "../../styles/main.css";
+
 
 class BoldMovies extends Component {
     constructor(props) {
@@ -37,6 +40,42 @@ class BoldMovies extends Component {
     }
 
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            variableWidth: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 375,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        };
         return (
             <div>
                 <div class="info-block">
@@ -63,16 +102,12 @@ class BoldMovies extends Component {
                             <p>The Bold podcast hosted by Aidan Salvi one of our Master Coaches shares the journey and decision made by people from various walks of life in how they made Bold decision in thair path to fulfillment and success and what it took to get here.</p>
                         </div>
                         <div className="play-carousel">
-                            <div className="slideset">
+                            
+                            <Slider {...settings} className="video-slider">
                                 {this.getBoldMovies()}
-                            </div>
-                            <a href="#" className="btn-prev"><i className="icon-arrow-prev"></i></a>
-                            <a href="#" className="btn-next"><i className="icon-arrow-next"></i></a>
-                            <ul className="slick-dotes">
-                                <li><a href="#"></a></li>
-                                <li className="active"><a href="#"></a></li>
-                                <li><a href="#"></a></li>
-                            </ul>
+                            </Slider>
+                            
+                           
                         </div>
                         <div className="btn-holder center">
                             <a href="#" className="btn btn-border">See the Full Series</a>

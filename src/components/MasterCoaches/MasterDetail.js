@@ -13,7 +13,8 @@ class MasterDetail extends Component {
         super(props);
         this.state = {
             mastercoaches: '',
-            showType: 0
+            showType: 0,
+            showPopup: false
         }
     }
 
@@ -90,8 +91,39 @@ class MasterDetail extends Component {
         return questions;
     }
 
-    showSelected = () => {
+    showSelected=()=> {
         let type = window.location.href.split("#")[1];
+    }
+
+    getPopup=()=> {
+        return(
+            <div class="popup-holder">
+                <a href="#" class="btn-close"><i class="icon-cross" onClick={this.popUp}></i></a>
+                <div class="popup">
+                    <div class="img-holder">
+                        <img src="images/img41.jpg" width="931" height="520" alt="img description" />
+                        <a class="btn-play" href="#"><i class="icon-play"></i></a>
+                        <span class="text">00:00:00 / 00:04:50</span>
+                    </div>
+                    <div class="text-holder">
+                        <div class="text-box">
+                            <h3>John Doe</h3>
+                            <h2>Class One</h2>
+                            <span class="designation">COACHES</span>
+                        </div>
+                        <div class="btn-holder">
+                            <a href="#" class="btn btn-border">Explore the Class</a>
+                            <a href="#" class="btn btn-border">Share the Trailer</a>
+                            <a href="#" class="btn">Book Discovery Call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
+    popUp=()=> {
+        this.setState({showPopup: !this.state.showPopup});
     }
 
     render() {
@@ -107,7 +139,7 @@ class MasterDetail extends Component {
                             <div className="img-box">
                                 <img src={this.state.mastercoaches.coachimage} width="385" height="385" alt="img description" />
                             </div>
-                            <a href="#" className="btn-watch">Watch trailer</a>
+                            <a className="btn-watch" onClick={this.popUp}>Watch trailer</a>
                         </div>
                         <div className="text-col">
                             {this.headSet()}
@@ -137,6 +169,12 @@ class MasterDetail extends Component {
                         </div>
                     </div>
                 </div>
+                {this.state.showPopup && this.state.showPopup ?
+                    <div>
+                        {this.getPopup()}
+                    </div>
+                : ''
+                }
             </section>
         )
     }

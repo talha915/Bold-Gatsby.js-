@@ -21,17 +21,17 @@ class Home extends Component {
         this.setHome();
     }
 
-    setHome=()=> {
-        this.setState({homeData: index});
+    setHome = () => {
+        this.setState({ homeData: index });
     }
 
     render() {
-        return(
-            <div>
+        return (
+            <div>       
                 <Sliders />
                 <OurStories />
-                <Recently recent={this.state.homeData.section8}/>
-                <BoldMovies boldData={this.state.homeData.sectionboldmovies} />                
+                <Recently recent={this.state.homeData.section8} />
+                <BoldMovies boldData={this.state.homeData.sectionboldmovies} />
             </div>
         )
     }

@@ -1,9 +1,6 @@
 import React, { Component } from "react"
 import "../../styles/main.css";
 
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 class BoldMovies extends Component {
 

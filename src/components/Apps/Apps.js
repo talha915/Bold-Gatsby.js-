@@ -13,7 +13,7 @@ class Apps extends Component {
         super(props);
         this.state = {
             appData: '',
-            activeData: ''
+            activeData: 1
         }
     }
 

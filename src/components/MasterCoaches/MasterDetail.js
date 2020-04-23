@@ -91,19 +91,17 @@ class MasterDetail extends Component {
         return questions;
     }
 
-    showSelected=()=> {
+    showSelected = () => {
         let type = window.location.href.split("#")[1];
     }
 
-    getPopup=()=> {
-        return(
+    getPopup = () => {
+        return (
             <div class="popup-holder">
                 <a href="#" class="btn-close"><i class="icon-cross" onClick={this.popUp}></i></a>
                 <div class="popup">
                     <div class="img-holder">
-                        <img src="images/img41.jpg" width="931" height="520" alt="img description" />
-                        <a class="btn-play" href="#"><i class="icon-play"></i></a>
-                        <span class="text">00:00:00 / 00:04:50</span>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="text-holder">
                         <div class="text-box">
@@ -122,8 +120,8 @@ class MasterDetail extends Component {
         )
     }
 
-    popUp=()=> {
-        this.setState({showPopup: !this.state.showPopup});
+    popUp = () => {
+        this.setState({ showPopup: !this.state.showPopup });
     }
 
     render() {
@@ -160,9 +158,11 @@ class MasterDetail extends Component {
                                                 {this.getLessons()}
                                             </div>
                                             :
-                                            <div id="tab-03" >
-                                                {this.getQA()}
-                                            </div>
+                                            window.location.href.split("#")[1] == "tab-03" ?
+                                                <div id="tab-03" >
+                                                    {this.getQA()}
+                                                </div>
+                                                : ""
                                     }
                                 </div>
                             </div>
@@ -173,8 +173,42 @@ class MasterDetail extends Component {
                     <div>
                         {this.getPopup()}
                     </div>
-                : ''
+                    : ''
                 }
+                <section class="contact-form">
+                    <div class="container">
+                        <div class="text-area">
+                            <h2 class="h1 heading-border lowercase">Book a Discovery Call.</h2>
+                            <h3>Want to explore the possibilities?</h3>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                        <form action="#" class="form-area">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input id="name" class="form-control" type="text" placeholder="Enter your name..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input id="email" class="form-control" type="email" placeholder="Enter your email..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input id="phone" class="form-control" type="text" placeholder="Enter your phone..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="note">Notes:</label>
+                                <textarea id="note" class="form-control" placeholder="Enter your notes..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">Best time to contact:</label>
+                                <div class="input-row">
+                                    <input id="contact" class="form-control" type="text" placeholder="04-04-2020" />
+                                    <input class="form-control" type="text" placeholder="10:00 AM" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
             </section>
         )
     }

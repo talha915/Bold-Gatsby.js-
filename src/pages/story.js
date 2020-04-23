@@ -4,7 +4,7 @@ import OurStories from '../components/OurStory/OurStories';
 import Footer from '../components/Footer/Footer';
 
 const MasterCoache = () => (
-  <div>
+  <div id="wrapper">
     <Header />
     <OurStories />
     <Footer />

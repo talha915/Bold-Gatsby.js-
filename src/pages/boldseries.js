@@ -4,7 +4,7 @@ import BoldSerie from '../components/BoldSeries/BoldSeries';
 import Footer from '../components/Footer/Footer';
 
 const BoldSeries = () => (
-  <div>
+  <div id="wrapper">
     <Header />
     <BoldSerie />
     <Footer />

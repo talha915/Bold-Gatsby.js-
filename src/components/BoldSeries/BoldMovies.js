@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import "../../styles/main.css";
 
 import Slider from "react-slick";
+import { navigate } from "gatsby";
 class BoldMovies extends Component {
 
     constructor(props) {
@@ -17,6 +18,10 @@ class BoldMovies extends Component {
 
     setBoldMovies = () => {
         this.setState({ boldCoaches: this.props.boldMovie });
+    }
+
+    boldPledge=()=> {
+        navigate('/boldpledge');
     }
 
     getBoldMovies = () => {
@@ -107,7 +112,7 @@ class BoldMovies extends Component {
                             <p>Start with a coaching as low as $99/month (billed annually). 100% satisfaction quaranteed.</p>
                         </div>
                         <div className="btn-holder">
-                            <a href="#" className="btn">Get Started</a>
+                            <a href="#" className="btn" onClick={this.boldPledge}>Get Started</a>
                         </div>
                     </div>
                 </section>

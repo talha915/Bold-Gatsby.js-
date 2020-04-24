@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import "../../styles/main.css";
 
+import { navigate } from "gatsby"
+
 class InfoBanner extends Component {
 
     constructor(props) {
@@ -24,9 +26,13 @@ class InfoBanner extends Component {
         this.setState({banner: this.props.section7});
     }
 
+    boldPledge=()=> {
+        navigate('/boldpledge');
+    }
+
     render() {
         return (
-            <div>
+            <div className="sections-holder">
                 <section className="info-section" style={{backgroundImage:  "url(images/circle-img08.svg)"}}>
                     <div className="container">
                         <div className="text-box">
@@ -41,7 +47,7 @@ class InfoBanner extends Component {
                             <h2 className="h1 heading-border">{this.state.banner.heading}</h2>
                             <span className="subtitle">{this.state.banner.subheading}</span>
                             <div className="btn-holder">
-                                <a href="#" className="btn">{this.state.banner.buttonname}</a>
+                                <a href="#" className="btn" onClick={this.boldPledge}>{this.state.banner.buttonname}</a>
                             </div>
                         </div>
                     </div>

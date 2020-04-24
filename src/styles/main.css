@@ -1059,7 +1059,7 @@ input[type="submit"] {
 	position: relative;
 	padding: 15px 30px 15px 0;
 	background: #0d0d0f;
-	z-index: 99;
+	z-index: 999;
 }
 
 .home #header {
@@ -2369,8 +2369,8 @@ ol {
 	content: "";
 	position: absolute;
 	top: 0;
-	left: -9999px;
-	right: -170px;
+	left: 0;
+	right: 0;
 	bottom: 0;
 	background: rgba(255, 255, 255, .1);
 }
@@ -3097,6 +3097,7 @@ ol {
 	color: #fff;
 	position: relative;
 	padding: 0 0 0 16px;
+	cursor: pointer;
 }
 
 .detail-holder .btn-watch:after {
@@ -3504,14 +3505,6 @@ ol {
 }
 
 .popup-holder {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
 	position: fixed;
 	top: 0;
@@ -3519,9 +3512,11 @@ ol {
 	left: 0;
 	right: 0;
 	overflow: auto;
-	padding: 15px;
+	padding: 35px 15px;
 	background: #0d0d0f;
 	z-index: 99;
+	transform: none;
+	transition: all 0.8s ease 0s;	
 }
 
 .popup-holder .btn-close {
@@ -5350,6 +5345,10 @@ ol {
 		line-height: 36px;
 	}
 
+	.start-coaching:after {
+		right: 100px;
+	}
+
 	.heading {
 		font-size: 30px;
 		line-height: 35px;
@@ -6191,7 +6190,7 @@ ol {
 	}
 
 	.about-us {
-		padding: 100px 15px;
+		padding: 40px 15px;
 		margin-bottom: 137px;
 	}
 
@@ -6507,3 +6506,6 @@ ol {
 	}
 }
 
+.sections-holder .banner-section{
+	margin-bottom: 0;
+}

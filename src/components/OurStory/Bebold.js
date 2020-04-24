@@ -22,7 +22,7 @@ class BeBold extends Component {
         let data = this.state.bebold.beboldarray;
         let results = data.map((items, index)=> {
             return(
-                <li key={index}>{items.detail}</li>
+                <li key={index} className={index===2 ? "active" : ""}>{items.detail}</li>
             )
         })
         return results;

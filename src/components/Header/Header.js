@@ -20,8 +20,8 @@ const Header = ({ siteTitle }) => (
                     <li className={(window.location.pathname === "/boldseries" ? "active": "")}><Link to="/boldseries"><a href="#">bold series</a></Link></li>
                     <li className={(window.location.pathname === "/mastercoaches" ? "active": "")}><Link to="/mastercoaches"><a href="#">master coaches</a></Link></li>
                     <li className={(window.location.pathname === "/membership" ? "active": "")}><Link to="/membership"><a href="#">membership</a></Link></li>
-                    <li className={(window.location.pathname === "/app" ? "active": "")}><Link to="/app"><a href="#">app</a></Link></li>
-                    <li><a className="icon" href="#"><i class="icon-download"></i></a></li>
+                    {/* <li className={(window.location.pathname === "/app" ? "active": "")}><Link to="/app"><a href="#">app</a></Link></li> */}
+                    <li><Link to="/app"><a className="icon" href="#"><i class="icon-download"></i></a></Link></li>
                 </ul>
                 {/* <div className="btn-holder">
                     <a className="btn-app" href="#"><img src={btnappstore} width="120" height="40" alt="appstore" /></a>

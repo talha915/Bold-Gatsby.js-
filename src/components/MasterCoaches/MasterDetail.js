@@ -4,7 +4,7 @@ import bgImage from '../../images/circle-img07.svg';
 
 // Data
 import masterCoach from '../../Data/master-coaches.json';
-
+import { navigate } from "@reach/router";
 // Components
 
 class MasterDetail extends Component {
@@ -98,7 +98,7 @@ class MasterDetail extends Component {
     getPopup = () => {
         return (
             <div class="popup-holder">
-                <a href="#" class="btn-close"><i class="icon-cross" onClick={this.popUp}></i></a>
+                <a class="btn-close"><i class="icon-cross" onClick={this.popUp}></i></a>
                 <div class="popup">
                     <div class="img-holder">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,60 +121,63 @@ class MasterDetail extends Component {
     }
 
     popUp = () => {
+        navigate("/mastercoachdetail#tab-01");
         this.setState({ showPopup: !this.state.showPopup });
     }
 
     render() {
         return (
-            <section className="coaches-info">
-                <img className="circle-shape" src="images/circle-img10.svg" width="505" height="505" alt="img description" />
-                <div className="container">
-                    <div className="section-header">
-                        <h1 className="heading-border">master<strong>coach</strong></h1>
-                    </div>
-                    <div className="detail-holder">
-                        <div className="img-col">
-                            <div className="img-box">
-                                <img src={this.state.mastercoaches.coachimage} width="385" height="385" alt="img description" />
-                            </div>
-                            <a className="btn-watch" onClick={this.popUp}>Watch trailer</a>
+            <div className="main-block">
+                <section className="coaches-info">
+                    <img className="circle-shape" src="images/circle-img10.svg" width="505" height="505" alt="img description" />
+                    <div className="container">
+                        <div className="section-header">
+                            <h1 className="heading-border">master<strong>coach</strong></h1>
                         </div>
-                        <div className="text-col">
-                            {this.headSet()}
-                            <div className="tabset-holder">
-                                <ul className="tabset">
-                                    <li className={window.location.href.split("#")[1] == "tab-01" ? "active" : ""} ><a href="#tab-01" onClick={this.showSelected}>Overview</a></li>
-                                    <li className={window.location.href.split("#")[1] == "tab-02" ? "active" : ""}><a href="#tab-02" onClick={this.showSelected}>Lessons</a></li>
-                                    <li className={window.location.href.split("#")[1] == "tab-03" ? "active" : ""}><a href="#tab-03">Q & A</a></li>
-                                </ul>
-                                <div className="tab-content">
-                                    {window.location.href.split("#")[1] == "tab-01" ?
-                                        <div id="tab-01" >
-                                            {this.overView()}
-                                        </div>
-                                        :
-                                        window.location.href.split("#")[1] == "tab-02" ?
-                                            <div id="tab-02">
-                                                {this.getLessons()}
+                        <div className="detail-holder">
+                            <div className="img-col">
+                                <div className="img-box">
+                                    <img src={this.state.mastercoaches.coachimage} width="385" height="385" alt="img description" />
+                                </div>
+                                <a className="btn-watch" onClick={this.popUp}>Watch trailer</a>
+                            </div>
+                            <div className="text-col">
+                                {this.headSet()}
+                                <div className="tabset-holder">
+                                    <ul className="tabset">
+                                        <li className={window.location.href.split("#")[1] == "tab-01" ? "active" : ""} ><a href="#tab-01" onClick={this.showSelected}>Overview</a></li>
+                                        <li className={window.location.href.split("#")[1] == "tab-02" ? "active" : ""}><a href="#tab-02" onClick={this.showSelected}>Lessons</a></li>
+                                        <li className={window.location.href.split("#")[1] == "tab-03" ? "active" : ""}><a href="#tab-03">Q & A</a></li>
+                                    </ul>
+                                    <div className="tab-content">
+                                        {window.location.href.split("#")[1] == "tab-01" ?
+                                            <div id="tab-01" >
+                                                {this.overView()}
                                             </div>
                                             :
-                                            window.location.href.split("#")[1] == "tab-03" ?
-                                                <div id="tab-03" >
-                                                    {this.getQA()}
+                                            window.location.href.split("#")[1] == "tab-02" ?
+                                                <div id="tab-02">
+                                                    {this.getLessons()}
                                                 </div>
-                                                : ""
-                                    }
+                                                :
+                                                window.location.href.split("#")[1] == "tab-03" ?
+                                                    <div id="tab-03" >
+                                                        {this.getQA()}
+                                                    </div>
+                                                    : ""
+                                        }
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                {this.state.showPopup && this.state.showPopup ?
-                    <div>
-                        {this.getPopup()}
-                    </div>
-                    : ''
-                }
+                    {this.state.showPopup && this.state.showPopup ?
+                        <div>
+                            {this.getPopup()}
+                        </div>
+                        : ''
+                    }
+                </section>
                 <section class="contact-form">
                     <div class="container">
                         <div class="text-area">
@@ -209,7 +212,7 @@ class MasterDetail extends Component {
                         </form>
                     </div>
                 </section>
-            </section>
+            </div>
         )
     }
 }

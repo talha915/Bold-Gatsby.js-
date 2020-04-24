@@ -51,8 +51,7 @@ class MasterCoaches extends Component {
 
     selectedCard=(data, index)=> {
         localStorage.setItem('selected', JSON.stringify(data));
-        window.location.pathname = "/mastercoachdetail";
-        console.log("Setted: ", JSON.parse(localStorage.getItem('selected')));
+        navigate("/mastercoachdetail#tab-01");
     }
 
     render() {

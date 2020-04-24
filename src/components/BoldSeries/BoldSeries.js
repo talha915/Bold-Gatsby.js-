@@ -52,10 +52,10 @@ class BoldSerie extends Component {
                             </h2>
                             <p>Join a Master Coaching Series to accelerated the process of making you Bold moves.</p>
                         </div>
-                        <BoldSeriesCoaches ref={(section) => { this.second = section}} serieCoach={this.state.boldSeries} />
-                        <BoldMovies ref={(section) => { this.third = section}} boldMovie={this.state.boldSeries.section2} />
                     </div>
                 </section>
+                <BoldSeriesCoaches ref={(section) => { this.second = section}} serieCoach={this.state.boldSeries} />
+                <BoldMovies ref={(section) => { this.third = section}} boldMovie={this.state.boldSeries.section2} />
             </div>
         )
     }

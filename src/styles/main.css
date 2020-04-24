@@ -6509,3 +6509,11 @@ ol {
 .sections-holder .banner-section{
 	margin-bottom: 0;
 }
+
+.play-carousel .video-slider .slick-slide{
+	padding: 0 30px;
+}
+
+.play-carousel .video-slider .text-box{
+	box-shadow: 0 0 28px rgba(255, 255, 255, .25);
+}

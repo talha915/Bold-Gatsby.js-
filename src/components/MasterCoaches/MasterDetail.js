@@ -5,6 +5,7 @@ import bgImage from '../../images/circle-img07.svg';
 // Data
 import masterCoach from '../../Data/master-coaches.json';
 import { navigate } from "@reach/router";
+import { globalHistory } from "@reach/router";
 // Components
 
 class MasterDetail extends Component {
@@ -20,7 +21,7 @@ class MasterDetail extends Component {
 
     showType;
 
-    UNSAFE_componentWillMount() {
+    componentDidMount() {
         this.setState({ mastercoaches: JSON.parse(localStorage.getItem('selected')) });
     }
 
@@ -44,16 +45,18 @@ class MasterDetail extends Component {
     }
 
     overView = () => {
-        let data = this.state.mastercoaches.Overview;
-        return (
-            <div>
-                <h3>{data.heading}</h3>
-                <p>{data.detail}</p>
-                <p>{data.detail1}</p>
-                <p>{data.detail2}</p>
-                <p>{data.detail3}</p>
-            </div>
-        )
+        if(this.state.mastercoaches) {
+            let data = this.state.mastercoaches.Overview;
+            return (
+                <div>
+                    <h3>{data.heading}</h3>
+                    <p>{data.detail}</p>
+                    <p>{data.detail1}</p>
+                    <p>{data.detail2}</p>
+                    <p>{data.detail3}</p>
+                </div>
+            )
+        }
     }
 
     getLessons = () => {
@@ -92,7 +95,7 @@ class MasterDetail extends Component {
     }
 
     showSelected = () => {
-        let type = window.location.href.split("#")[1];
+        let type = globalHistory.location.hash;
     }
 
     getPopup = () => {
@@ -145,22 +148,22 @@ class MasterDetail extends Component {
                                 {this.headSet()}
                                 <div className="tabset-holder">
                                     <ul className="tabset">
-                                        <li className={window.location.href.split("#")[1] == "tab-01" ? "active" : ""} ><a href="#tab-01" onClick={this.showSelected}>Overview</a></li>
-                                        <li className={window.location.href.split("#")[1] == "tab-02" ? "active" : ""}><a href="#tab-02" onClick={this.showSelected}>Lessons</a></li>
-                                        <li className={window.location.href.split("#")[1] == "tab-03" ? "active" : ""}><a href="#tab-03">Q & A</a></li>
+                                        <li className={globalHistory.location.hash == "#tab-01" ? "active" : ""} ><a href="#tab-01" onClick={this.showSelected}>Overview</a></li>
+                                        <li className={globalHistory.location.hash == "#tab-02" ? "active" : ""}><a href="#tab-02" onClick={this.showSelected}>Lessons</a></li>
+                                        <li className={globalHistory.location.hash == "#tab-03" ? "active" : ""}><a href="#tab-03">Q & A</a></li>
                                     </ul>
                                     <div className="tab-content">
-                                        {window.location.href.split("#")[1] == "tab-01" ?
+                                        {globalHistory.location.hash == "#tab-01" ?
                                             <div id="tab-01" >
                                                 {this.overView()}
                                             </div>
                                             :
-                                            window.location.href.split("#")[1] == "tab-02" ?
+                                            globalHistory.location.hash == "#tab-02" ?
                                                 <div id="tab-02">
                                                     {this.getLessons()}
                                                 </div>
                                                 :
-                                                window.location.href.split("#")[1] == "tab-03" ?
+                                                globalHistory.location.hash == "#tab-03" ?
                                                     <div id="tab-03" >
                                                         {this.getQA()}
                                                     </div>

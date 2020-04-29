@@ -252,5 +252,159 @@
     "banner": {
         "heading": "Start with a coaching as low as $99/month (billed annually). 100% satisfaction quaranteed.",
         "button": "Get Started"
-    }
+    },
+    "slider": [
+        {
+            "image": "images/slide-img01.jpg",
+            "heading": "focus",
+            "subtitle": "Stay focused on what matters.",
+            "paras": [
+                {
+                    "para": "A bold goal can be small or big, can take weeks or months to complete. But most Bold Moves usually have one small barrier that keeps us from executing on the move."
+                },
+                {
+                    "para": "The Be Bold Movement reminds us it is important to say focused on the end result and the goal and not the barrier."
+                },
+                {
+                    "para": "The Bold Movement singularizes one impact-focused question that will serve as the foundation for moving forward and staying focused."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img02.jpg",
+            "heading": "PROGRESS",
+            "subtitle": "Make progress daily.",
+            "paras": [
+                {
+                    "para": "One of the 3 Pillars of Be Bold Thinking is Forward Progress."
+                },
+                {
+                    "para": "Be Bold is NOT about motivation it is about movement. Taking action and forward progress is movement."
+                },
+                {
+                    "para": "Do. Don’t just talk about doing. When you move past the discussion stage and into the doing stage, progress is being made."
+                },
+                {
+                    "para": "People like Bold Movement thinking because it is progressive and continually challenges you into a forward-thinking mindset."
+                },
+                {
+                    "para": "Every day is an opportunity to make progress."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img03.jpg",
+            "heading": "BOLD MOVES",
+            "subtitle": "Make life changing decisions.",
+            "paras": [
+                {
+                    "para": "Bold Moves are personal to each person."
+                },
+                {
+                    "para": "What defines a Bold Move? The factor or level of Boldness is very personal. But most Bold Moves have similar characteristics:"
+                },
+                {
+                    "para": "1) A Bold Move is a move that has been on your mind for quite some time but something is holding you back from execution. Usually the barrier an inner fear of some sort."
+                },
+                {
+                    "para": "2) Bold Moves require additional work after taking the first action and take 5-6 months to realize true achievement, although a pillar of Be Bold thinking is not to live by deadlines. True achievement comes at different times for different people and goals."
+                },
+                {
+                    "para": "3) Bold moves are pivotal and require one pivotal action to start the momentum. Identifying and conquering the big blocker may be obvious to some or could be hidden to others."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img04.jpg",
+            "heading": "SURPASS THE FEAR",
+            "subtitle": "Overcome the blocking fear.",
+            "paras": [
+                {
+                    "para": "One of the 3 Pillars of Be Bold Thinking is to Surpass Fears."
+                },
+                {
+                    "para": "Fearless People Think, Speak and Act differently than Fearful People."
+                },
+                {
+                    "para": "It’s not the lack of desire but the fundamental fear that prevents us from taking the action to reach our fullest potential."
+                },
+                {
+                    "para": "Tackle the inner fear to make a bold decision and take actionable, impactful steps that will be vital to moving beyond the fear. The action is at the center of attacking the fear."
+                },
+                {
+                    "para": "You can be fearful and still move forward. And moving forward is to make progress daily."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img05.jpg",
+            "heading": "REACH THE PINNACLE",
+            "subtitle": "Be your best self.",
+            "paras": [
+                {
+                    "para": "The bold framework helps support making large changes in your life. These changes will help you become your best self."
+                },
+                {
+                    "para": "You will continually tell yourself you don’t know but you will learn. If you learn everyday, you make progress."
+                },
+                {
+                    "para": "Do not fear making a mistake. Mistakes are opportunities."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img06.jpg",
+            "heading": "DEATH TO DEADLINES",
+            "subtitle": "Stay focused on progress not due dates.",
+            "paras": [
+                {
+                    "para": "One of the 3 Pillars of Be Bold Thinking is that there are No Deadlines."
+                },
+                {
+                    "para": "The bold framework helps outline key factors to success and creates a timeline, not a deadline, that is unique and personal to each situation."
+                },
+                {
+                    "para": "Everyone progresses at different rates."
+                },
+                {
+                    "para": "When you stay focused on progress, there are no due dates.  It is about making actionable and noticeable progress."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img07.jpg",
+            "heading": "LIVE AN ANXIETY FREE LIFE",
+            "subtitle": "Feel confident about your moves.",
+            "paras": [
+                {
+                    "para": "People like Bold movement thinking because it is easy to digest and understand."
+                },
+                {
+                    "para": "Bold Movement Thinking has an all-encompassing and holistic focus on executable actions. As you transition to looking at the “larger picture” in a holistic way, the triggers of normal anxiety will be lessened."
+                },
+                {
+                    "para": "Do not let others discourage you as you take bold moves. Those that discourage you will trigger the anxiety you are wanting to leave behind."
+                }
+            ]
+        },
+        {
+            "image": "images/slide-img08.jpg",
+            "heading": "FEEL CONFIDENT",
+            "subtitle": "Build confidence with focused execution.",
+            "paras": [
+                {
+                    "para": "The Be Bold mission is to challenge the conventional thinking, planning, and decision-making process for people that want to change, create change, or to be great. As you encounter and successfully accomplish the change or changes you envisioned, your confidence in yourself and your future will build."
+                },
+                {
+                    "para": "People like Bold Movement thinking because it relies on accountability for proper execution. Accountability in turns helps build confidence in your decision to continue to move forward."
+                },
+                {
+                    "para": "Bold Movement thinking relies on support network(s) and resources to help understand and execute your Bold Moves."
+                },
+                {
+                    "para": "Ask others for help during the journey and conversely share your knowledge with others."
+                }
+            ]
+        }
+    ]
 }

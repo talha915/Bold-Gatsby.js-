@@ -54,7 +54,7 @@ class OurStories extends Component {
                     <BoldThinking  ref={(section) => { this.second = section}} thinkingData={this.state.ourstories.section2} />
                     <BoldExecution  ref={(section) => { this.third = section}} executionData={this.state.ourstories.section3} />
                     <BeBold  ref={(section) => { this.fourth = section}} boldData={this.state.ourstories.section4} />
-                    <BoldMovement  ref={(section) => { this.fifth = section}} />
+                    <BoldMovement  ref={(section) => { this.fifth = section}} boldmovement={this.state.ourstories.section5}/>
                     <InfoBanner  ref={(section) => { this.sixth = section}} section6={this.state.ourstories.section6} section7={this.state.ourstories.section7} />
                 </main>
             </div>

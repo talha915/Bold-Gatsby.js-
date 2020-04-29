@@ -28,7 +28,7 @@ class Home extends Component {
     render() {
         return (
             <div>       
-                <Sliders />
+                <Sliders slides={this.state.homeData.slider}/>
                 <OurStories />
                 <Recently recent={this.state.homeData.section8} />
                 <BoldMovies boldData={this.state.homeData.sectionboldmovies} />

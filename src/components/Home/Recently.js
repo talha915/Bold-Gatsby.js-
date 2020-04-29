@@ -25,8 +25,8 @@ class Recently extends Component {
         let results = data.map((items, index)=> {
             return(
                 <div className="slide" key={index}>
-                    <div className="image" style={{backgroundImage: "url(/images/img08.jpg)"}}>
-
+                    <div className="image">
+                        <img src={items.image} alt="Image Description"/>
                     </div>
                     <div className="text-box">
                         <h2>{items.heading}</h2>

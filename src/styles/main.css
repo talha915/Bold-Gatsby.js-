@@ -2073,6 +2073,7 @@ ol {
 .carousel-holder {
 	position: relative;
 	margin-bottom: 50px;
+	padding-top: 50px;
 }
 
 .carousel-holder .slick-prev,
@@ -5562,6 +5563,7 @@ ol {
 
 	.carousel-holder {
 		margin-bottom: 148px;
+		padding-top: 100px;
 	}
 
 	.carousel .slick-slide {
@@ -6397,6 +6399,10 @@ ol {
 	.coaches-info .circle-shape {
 		top: 120px;
 		width: 700px;
+	}
+
+	.carousel-holder {
+		padding-top: 150px;
 	}
 
 	.contact-form {

@@ -25,6 +25,11 @@ class MasterDetail extends Component {
         this.setState({ mastercoaches: JSON.parse(localStorage.getItem('selected')) });
     }
 
+    UNSAFE_componentWillMount() {
+        window.scrollTo(0,0);
+    }
+
+
     showOverview = () => {
         this.setState({ showType: 1 });
     }
@@ -46,6 +51,7 @@ class MasterDetail extends Component {
 
     overView = () => {
         if(this.state.mastercoaches) {
+            window.scrollTo(0,0);
             let data = this.state.mastercoaches.Overview;
             return (
                 <div>
@@ -61,6 +67,7 @@ class MasterDetail extends Component {
 
     getLessons = () => {
         let data = this.state.mastercoaches.lesson.arrayoflesson;
+        window.scrollTo(0,0);
         let lessons = data.map((items, index) => {
             return (
                 <article className="lesson-article" key={index}>
@@ -83,6 +90,7 @@ class MasterDetail extends Component {
 
     getQA = () => {
         let data = this.state.mastercoaches.qandaa.overviewarray;
+        window.scrollTo(0,0);
         let questions = data.map((items, index) => {
             return (
                 <div className="que-ans">
@@ -96,9 +104,11 @@ class MasterDetail extends Component {
 
     showSelected = () => {
         let type = globalHistory.location.hash;
+        window.scrollTo(0,0);
     }
 
     getPopup = () => {
+        window.scrollTo(0,0);
         return (
             <div class="popup-holder">
                 <a class="btn-close"><i class="icon-cross" onClick={this.popUp}></i></a>
@@ -129,6 +139,7 @@ class MasterDetail extends Component {
     }
 
     render() {
+        window.scrollTo(0, 0);
         return (
             <div className="main-block">
                 <section className="coaches-info">

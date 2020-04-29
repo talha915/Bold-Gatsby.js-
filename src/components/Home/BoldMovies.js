@@ -69,7 +69,7 @@ class BoldMovies extends Component {
                     }
                 },
                 {
-                    breakpoint: 375,
+                    breakpoint: 575,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1

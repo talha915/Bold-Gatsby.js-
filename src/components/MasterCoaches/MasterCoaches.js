@@ -50,8 +50,10 @@ class MasterCoaches extends Component {
     }
 
     selectedCard=(data, index)=> {
+        window.scrollTo(0, 0);
         localStorage.setItem('selected', JSON.stringify(data));
-        navigate("/mastercoachdetail#tab-01");
+        navigate("/mastercoachdetail#tab-01")
+        .then(() => window.scrollTo(0, 0));
     }
 
     render() {
